@@ -1,0 +1,58 @@
+{
+  "name": "npm-git-package-update",
+  "version": "0.1.0",
+  "description": "Update npm package depedancies that use git urls. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stieneee/npm-git-package-update.git"
+  },
+  "keywords": [
+    "npm",
+    "git",
+    "url",
+    "update"
+  ],
+  "author": "Tyler Stiene <tystiene@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stieneee/npm-git-package-update/issues"
+  },
+  "homepage": "https://github.com/Stieneee/npm-git-package-update#readme",
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2018
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "max-len": "warn",
+      "no-underscore-dangle": "warn",
+      "eqeqeq": "warn",
+      "no-restricted-syntax": [
+        "warn",
+        "BinaryExpression[operator='in']"
+      ],
+      "no-prototype-builtins": "warn",
+      "prefer-destructuring": "warn",
+      "no-param-reassign": "warn",
+      "no-await-in-loop": "warn",
+      "global-require": "warn"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-node": "^0.3.2",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
