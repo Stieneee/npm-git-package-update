@@ -4,8 +4,8 @@
   "description": "Update npm package depedancies that use git urls. ",
   "main": "npm-git-package-update.js",
   "bin": {
-    "npm-git-package-update": "./npm-git-package-update",
-    "ngpu": "./npm-git-package-update"
+    "npm-git-package-update": "./npm-git-package-update.js",
+    "ngpu": "./npm-git-package-update.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
