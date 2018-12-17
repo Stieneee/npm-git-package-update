@@ -1,8 +1,12 @@
 {
   "name": "npm-git-package-update",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Update npm package depedancies that use git urls. ",
-  "main": "index.js",
+  "main": "npm-git-package-update.js",
+  "bin": {
+    "npm-git-package-update": "./npm-git-package-update",
+    "ngpu": "./npm-git-package-update"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,9 +18,14 @@
     "npm",
     "git",
     "url",
-    "update"
+    "update",
+    "recursive"
   ],
-  "author": "Tyler Stiene <tystiene@gmail.com>",
+  "author": {
+    "name": "Tyler Stiene",
+    "email": "tystiene@gmail.com"
+  },
+  "contributors": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Stieneee/npm-git-package-update/issues"
@@ -47,12 +56,17 @@
       "global-require": "warn"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "commander": "^2.19.0",
+    "klaw-sync": "^6.0.0"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.7.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-import-resolver-node": "^0.3.2",
     "eslint-plugin-import": "^2.12.0"
-  }
+  },
+  "bundledDependencies": [],
+  "optionalDependencies": {}
 }
