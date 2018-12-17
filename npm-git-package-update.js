@@ -7,7 +7,7 @@ const program = require('commander');
 const klawSync = require('klaw-sync');
 
 program
-  .version('0.2.0')
+  .version('0.2.1')
   .option('-r, --recursive', 'recursively update package.json excluding node_modules and hidden folders')
   .parse(process.argv);
 

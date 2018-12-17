@@ -1,6 +1,6 @@
 {
   "name": "npm-git-package-update",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Update npm package depedancies that use git urls. ",
   "main": "npm-git-package-update.js",
   "bin": {
